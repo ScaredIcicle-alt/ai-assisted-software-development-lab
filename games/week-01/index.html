@@ -1,1 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bug Dodger</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <div class="game-container">
+        <h1>🐛 Bug Dodger</h1>
+
+        <div class="score">Score: <span id="score">0</span></div>
+
+        <div id="game">
+            <div id="player"></div>
+        </div>
+
+        <div id="game-over" class="hidden">
+            <h2>Game Over!</h2>
+            <p>Your score: <span id="final-score">0</span></p>
+            <button id="restart">Restart</button>
+        </div>
+
+        <p class="instructions">
+            Use ← → arrow keys to move
+        </p>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
